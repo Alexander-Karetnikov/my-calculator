@@ -1,0 +1,33 @@
+.btn {
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 251, 0);
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    user-select: none;
+}
+
+.btn:hover {
+    background: #ff7700;
+    color: #fff;
+}
+#calc-form {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background: #eee;
+}
+
+#calc {
+    width: 260px;
+    display: inline-block;
+}
+
+#calc-input {
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+    resize: vertical;
+    text-align: right;
+}
